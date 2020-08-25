@@ -1,0 +1,16 @@
+h1 {
+	color: red;
+	animation: h1 ease 2s infinite;
+}
+
+@keyframes h1 {
+	0% {
+		opacity: 100%;
+	}
+	50% {
+		opacity: 0%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
